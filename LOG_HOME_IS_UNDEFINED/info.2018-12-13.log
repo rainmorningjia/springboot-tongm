@@ -1,0 +1,72 @@
+2018-12-13 20:03:02.289  INFO 7712 --- [main] com.baizhi.SpringbootTongmApplication    : Starting SpringbootTongmApplication on DESKTOP-LNBK4DG with PID 7712 (started by 14046 in E:\spring boot\spring-boot\springboot-tongm)
+2018-12-13 20:03:02.292  INFO 7712 --- [main] com.baizhi.SpringbootTongmApplication    : No active profile set, falling back to default profiles: default
+2018-12-13 20:03:02.539  INFO 7712 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117167f6: startup date [Thu Dec 13 20:03:02 CST 2018]; root of context hierarchy
+2018-12-13 20:03:03.470  INFO 7712 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+2018-12-13 20:03:06.105  INFO 7712 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8989 (http)
+2018-12-13 20:03:06.129  INFO 7712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 20:03:06.131  INFO 7712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-13 20:03:06.691  INFO 7712 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-13 20:03:06.728  INFO 7712 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springtk]      : Initializing Spring embedded WebApplicationContext
+2018-12-13 20:03:06.729  INFO 7712 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4190 ms
+2018-12-13 20:03:08.012  INFO 7712 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-13 20:03:08.016  INFO 7712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 20:03:08.017  INFO 7712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 20:03:08.017  INFO 7712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-13 20:03:08.017  INFO 7712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 20:03:11.429  INFO 7712 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@117167f6: startup date [Thu Dec 13 20:03:02 CST 2018]; root of context hierarchy
+2018-12-13 20:03:11.523  INFO 7712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/queryAll]}" onto public java.util.List<com.baizhi.entity.User> com.baizhi.controller.TestController.queryAll()
+2018-12-13 20:03:11.527  INFO 7712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-13 20:03:11.528  INFO 7712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-13 20:03:11.563  INFO 7712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:03:11.563  INFO 7712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:03:11.616  INFO 7712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:03:11.893  INFO 7712 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2018-12-13 20:03:11.894  INFO 7712 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2018-12-13 20:03:11.895  INFO 7712 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2018-12-13 20:03:11.896  INFO 7712 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2018-12-13 20:03:11.999  INFO 7712 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-13 20:03:12.001  INFO 7712 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-13 20:03:12.006  INFO 7712 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-13 20:03:12.048  INFO 7712 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2018-12-13 20:03:12.071  INFO 7712 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2018-12-13 20:03:12.085  INFO 7712 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2018-12-13 20:03:12.175  INFO 7712 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8989 (http)
+2018-12-13 20:03:12.193  INFO 7712 --- [main] com.baizhi.SpringbootTongmApplication    : Started SpringbootTongmApplication in 10.673 seconds (JVM running for 23.961)
+2018-12-13 20:05:13.295  INFO 13268 --- [main] com.baizhi.SpringbootTongmApplication    : Starting SpringbootTongmApplication on DESKTOP-LNBK4DG with PID 13268 (started by 14046 in E:\spring boot\spring-boot\springboot-tongm)
+2018-12-13 20:05:13.300  INFO 13268 --- [main] com.baizhi.SpringbootTongmApplication    : No active profile set, falling back to default profiles: default
+2018-12-13 20:05:13.426  INFO 13268 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36a6adaa: startup date [Thu Dec 13 20:05:13 CST 2018]; root of context hierarchy
+2018-12-13 20:05:13.942  INFO 13268 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 5.3.5.Final
+2018-12-13 20:05:15.641  INFO 13268 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8989 (http)
+2018-12-13 20:05:15.663  INFO 13268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 20:05:15.664  INFO 13268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-12-13 20:05:15.972  INFO 13268 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-13 20:05:15.979  INFO 13268 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/springtk]      : Initializing Spring embedded WebApplicationContext
+2018-12-13 20:05:15.980  INFO 13268 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2554 ms
+2018-12-13 20:05:16.191  INFO 13268 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-13 20:05:16.201  INFO 13268 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 20:05:16.202  INFO 13268 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 20:05:16.202  INFO 13268 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-13 20:05:16.202  INFO 13268 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 20:05:17.755  INFO 13268 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36a6adaa: startup date [Thu Dec 13 20:05:13 CST 2018]; root of context hierarchy
+2018-12-13 20:05:17.872  INFO 13268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/queryAll]}" onto public java.util.List<com.baizhi.entity.User> com.baizhi.controller.TestController.queryAll()
+2018-12-13 20:05:17.876  INFO 13268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-13 20:05:17.877  INFO 13268 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-13 20:05:17.922  INFO 13268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:05:17.922  INFO 13268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:05:17.990  INFO 13268 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-13 20:05:18.480  INFO 13268 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2018-12-13 20:05:18.487  INFO 13268 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2018-12-13 20:05:18.489  INFO 13268 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2018-12-13 20:05:18.489  INFO 13268 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2018-12-13 20:05:18.605  INFO 13268 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-13 20:05:18.610  INFO 13268 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-13 20:05:18.617  INFO 13268 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-13 20:05:18.638  INFO 13268 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8989"]
+2018-12-13 20:05:18.657  INFO 13268 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8989"]
+2018-12-13 20:05:18.679  INFO 13268 --- [main] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2018-12-13 20:05:18.720  INFO 13268 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8989 (http)
+2018-12-13 20:05:18.738  INFO 13268 --- [main] com.baizhi.SpringbootTongmApplication    : Started SpringbootTongmApplication in 5.997 seconds (JVM running for 12.266)
+2018-12-13 20:05:32.191  INFO 13268 --- [http-nio-8989-exec-1] o.a.c.c.C.[.[localhost].[/springtk]      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-13 20:05:32.194  INFO 13268 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-13 20:05:32.237  INFO 13268 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+2018-12-13 20:08:00.743  INFO 13268 --- [http-nio-8989-exec-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

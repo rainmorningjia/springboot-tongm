@@ -1,0 +1,2 @@
+2018-12-13 20:03:04.333  WARN 7712 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.baizhi]' package. Please check your configuration.
+2018-12-13 20:05:14.651  WARN 13268 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.baizhi]' package. Please check your configuration.

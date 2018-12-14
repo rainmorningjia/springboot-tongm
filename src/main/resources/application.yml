@@ -1,0 +1,28 @@
+mybatis:
+  type-aliases-package: com.baizhi.entity
+
+server:
+  port: 8989
+  context-path: /springtk
+  jsp-servlet:
+    init-parameters:
+      development: true
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.0.48:3306/jiayu?charset=utf-8
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
+management:  #actuator
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+
+
