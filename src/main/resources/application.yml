@@ -19,10 +19,11 @@ spring:
       suffix: .jsp
       prefix: /
 management:  #actuator
+  server:
+    port: 8990
   endpoints:
     web:
       base-path: /
       exposure:
         include: "*"
-
 
